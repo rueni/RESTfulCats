@@ -11,7 +11,7 @@ get '/api/cats/:id'
 post '/api/cats'
 
 **UPDATE a record by id** <br>
-patch 'api/cats/:id'
+patch 'api/cats/:id'<br>
 put 'api/cats/:id'
 
 **DELETE a record** <br>
