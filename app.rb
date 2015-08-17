@@ -6,6 +6,14 @@ ActiveRecord::Base.establish_connection(
   :database => 'restfulcats'
 )
 
+#### Helpers #####
+def cat_args
+  { :name => params[:name], :breed => params[:breed] }
+end
+
+#### Helpers #####
+
+
 get '/' do
   cat = Cat.create({:name => 'Pueni', :breed => 'Sofacat'}).to_json
 
