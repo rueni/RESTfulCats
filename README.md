@@ -1,18 +1,18 @@
 # RESTfulCats
 A RESTful API in Sinatra dedicated to cats.
 
-*GET: List*
+**GET: List** <br>
 get '/api/cats'
 
-*GET: By id*
+**GET: By id** <br>
 get '/api/cats/:id'
 
-*POST: create a new record*
+**POST: create a new record** <br>
 post '/api/cats'
 
-*Update a record by id*
+**UPDATE a record by id** <br>
 patch 'api/cats/:id'
 put 'api/cats/:id'
 
-*Delete a record*
+**DELETE a record** <br>
 delete '/api/cats/:id'
