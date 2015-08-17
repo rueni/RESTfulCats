@@ -1,6 +1,8 @@
 # RESTfulCats
 A RESTful API in Sinatra dedicated to cats.
 
+**http://localhost:9292/**<br>
+
 **GET: List** <br>
 get '/api/cats'
 
